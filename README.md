@@ -1,6 +1,9 @@
 # angular typed
 Angular typed plugin. It is angular directive which add typing animation to words
 
+#Example
+https://jsfiddle.net/kyvo8qon/
+
 # Install
 
 ```sh
