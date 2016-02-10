@@ -42,7 +42,7 @@ angular.module('angularTyped').directive('typed', function() {
 
 
             function initDisplay(elements) {
-                angular.element(element).after('<span class="typed-cursor">|</span>');
+                angular.element($element).after('<span class="typed-cursor">|</span>');
                 if (elements.length) {
                     showNext(currentElementIndex);
                 }
