@@ -10,7 +10,7 @@ gulp.task('cleanDist', function(cb) {
 });
 
 gulp.task('build', ['cleanDist'], function() {
-    return gulp.src(['src/angular-typed.js', SOURCES])
+    return gulp.src(['src/angular-typed-module.js', SOURCES])
         .pipe(ngAnnotate())
         .pipe(concat('angular-typed.js'))
         .pipe(uglify())
