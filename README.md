@@ -17,6 +17,8 @@ angular.module('myapp', ['angularTyped']);
 
 
 ```
+
+CSS required for display. It should be added to your app css.
 ```css
 
 .is-hidden, .out {
@@ -176,6 +178,15 @@ angular.module('myapp', ['angularTyped']);
     filter: alpha(opacity=100);
   }
 }
+
+```
+```html
+<div typed>
+	<span>Hello</span>
+	<span>Hi</span>
+	<span>Labas</span>
+</div>
+
 
 ```
 
